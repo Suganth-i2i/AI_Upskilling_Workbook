@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "157645008217",
+    "project_id": "any-chat-8c10e",
+    "storage_bucket": "any-chat-8c10e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157645008217:android:7b499c2c9b694462927048",
+        "android_client_info": {
+          "package_name": "com.example.anychat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMYtSczKNmmEVf2xquSmyyxAwZJcI92ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
