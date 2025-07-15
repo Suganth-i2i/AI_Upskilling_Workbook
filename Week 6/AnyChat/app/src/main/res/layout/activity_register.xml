@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="24dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/textAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AnyChat"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textRegisterTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textRegisterError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D32F2F"
+        android:visibility="gone"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textRegisterSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#388E3C"
+        android:visibility="gone"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imageTogglePassword"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_visibility_off"
+            android:layout_gravity="end|center_vertical"
+            android:padding="4dp"
+            android:contentDescription="Toggle Password Visibility"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#1976D2"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnGoToLogin"
+        android:text="Back to Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#E3E3E3"
+        android:textColor="#1976D2"/>
+</LinearLayout> 
